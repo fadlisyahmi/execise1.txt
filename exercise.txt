@@ -1,0 +1,63 @@
+----Tugas 1----
+
+READ AND SAVE MASS EQUALS TO 600
+READ AND SAVE SPEED EQUALS TO 2
+READ AND SAVE RESULT
+
+RESULT EQUALS TO MASS TIMES SPEED
+DISPLAY RESULT
+
+----Tugas 2----
+
+var tahun = prompt("Masukkan tahun: ","");
+
+if (tahun mod 4 === 0) {
+  if (tahun mod 100 !== 0) {
+    console.log(tahun + " adalah tahun kabisat");
+  }
+  else {
+    if (tahun mod 400 === 0) {
+      console.log(tahun + " adalah tahun kabisat");
+    }
+    else {
+    console.log(tahun + " adalah bukan tahun kabisat");
+    }
+  }
+}
+else {
+  console.log(tahun + " adalah bukan tahun kabisat");
+}
+
+----Tugas 3----
+
+var baju = "";
+
+	for (var i=1; i<=20; i++) {
+	  for (var j=0; j<=20; j++) {
+	    baju += "baju";
+	    console.log(j);
+	  }
+	  console.log(baju);
+	  baju = "";
+}
+
+----Tugas 4----
+
+var kuku = prompt("Periksa kuku: ","");
+
+if (kuku bersih <= 40) {
+  if (kuku bersih !== 40) {
+    console.log(kuku + " adalah kuku bersih");
+  }
+  else {
+    if (kuku tidak bersih <= 40) {
+      console.log(kuku + " adalah kuku tidak bersih");
+    }
+    else {
+    console.log(kuku + " adalah kuku bersih");
+    }
+  }
+}
+else {
+  console.log(kuku + " adalah kuku tidak bersih");
+}
